@@ -1,0 +1,26 @@
+# 素材与产物一律不入库（版权 + 体积）
+assets/
+work/
+out/
+fonts/
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

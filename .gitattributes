@@ -1,0 +1,5 @@
+# 仓库内统一 LF，避免 Windows 上提交后别人拿到 CRLF
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

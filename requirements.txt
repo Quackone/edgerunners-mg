@@ -1,0 +1,8 @@
+# 全部依图都是 PIL 逐帧绘制的，没有绘图框架
+Pillow>=10.0
+numpy>=1.26
+
+# 另外需要系统里装 ffmpeg（在 PATH 里），用来把帧序列编码成视频：
+#   Windows: winget install ffmpeg
+#   macOS:   brew install ffmpeg
+#   Linux:   sudo apt install ffmpeg
